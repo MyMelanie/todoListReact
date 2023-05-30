@@ -8,17 +8,11 @@
 body {
   margin: 0;
   font-family: 'Montserrat';
-  background-image: url('./resources/background.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #000;
-  animation: rotate 30s infinite alternate linear;
+  background-color: #2b496b;
+
 }
-@keyframes rotate{
-  100%{
-     background-position: 15% 50%; 
-  }
-} 
+
 
 code {
   font-family: 'Montserrat',
